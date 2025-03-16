@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+img {
+  width: 150px;
+  cursor: pointer;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.reset {
+  padding: 100px 200px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 700;
+}
