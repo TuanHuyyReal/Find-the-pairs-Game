@@ -77,6 +77,7 @@ images.forEach((item) => {
       reset.classList.add("reset");
       reset.innerHTML = "Reset";
       document.body.appendChild(reset);
+      alert("Bạn đã thắng!");
       reset.addEventListener("click", () => {
         location.reload();
       });
